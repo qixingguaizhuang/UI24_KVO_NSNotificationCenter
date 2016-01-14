@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49BE753C1C4730DF007B37D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BE753B1C4730DF007B37D4 /* main.m */; };
+		49BE753F1C4730DF007B37D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BE753E1C4730DF007B37D4 /* AppDelegate.m */; };
+		49BE75421C4730DF007B37D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BE75411C4730DF007B37D4 /* ViewController.m */; };
+		49BE75451C4730DF007B37D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49BE75431C4730DF007B37D4 /* Main.storyboard */; };
+		49BE75471C4730DF007B37D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49BE75461C4730DF007B37D4 /* Assets.xcassets */; };
+		49BE754A1C4730DF007B37D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49BE75481C4730DF007B37D4 /* LaunchScreen.storyboard */; };
+		49BE75551C4730DF007B37D4 /* UI24_KVO_NSNotificationCenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BE75541C4730DF007B37D4 /* UI24_KVO_NSNotificationCenterTests.m */; };
+		49BE75601C4730DF007B37D4 /* UI24_KVO_NSNotificationCenterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BE755F1C4730DF007B37D4 /* UI24_KVO_NSNotificationCenterUITests.m */; };
+		49BE756F1C474864007B37D4 /* NotiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BE756E1C474864007B37D4 /* NotiViewController.m */; };
+		49BE75721C47806A007B37D4 /* VCnoe.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BE75711C47806A007B37D4 /* VCnoe.m */; };
+		49BE75751C478084007B37D4 /* VCTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BE75741C478084007B37D4 /* VCTwo.m */; };
+		49BE75771C478E55007B37D4 /* j.png in Resources */ = {isa = PBXBuildFile; fileRef = 49BE75761C478E55007B37D4 /* j.png */; };
+		49BE757B1C4799CB007B37D4 /* CellForExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BE75791C4799CB007B37D4 /* CellForExtend.m */; };
+		49BE757C1C4799CB007B37D4 /* CellForExtend.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49BE757A1C4799CB007B37D4 /* CellForExtend.xib */; };
+		49BE757F1C479AE5007B37D4 /* d.png in Resources */ = {isa = PBXBuildFile; fileRef = 49BE757E1C479AE5007B37D4 /* d.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49BE75511C4730DF007B37D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49BE752F1C4730DF007B37D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49BE75361C4730DF007B37D4;
+			remoteInfo = UI24_KVO_NSNotificationCenter;
+		};
+		49BE755C1C4730DF007B37D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49BE752F1C4730DF007B37D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49BE75361C4730DF007B37D4;
+			remoteInfo = UI24_KVO_NSNotificationCenter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49BE75371C4730DF007B37D4 /* UI24_KVO_NSNotificationCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UI24_KVO_NSNotificationCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49BE753B1C4730DF007B37D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49BE753D1C4730DF007B37D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		49BE753E1C4730DF007B37D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		49BE75401C4730DF007B37D4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		49BE75411C4730DF007B37D4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		49BE75441C4730DF007B37D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49BE75461C4730DF007B37D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49BE75491C4730DF007B37D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49BE754B1C4730DF007B37D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49BE75501C4730DF007B37D4 /* UI24_KVO_NSNotificationCenterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UI24_KVO_NSNotificationCenterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49BE75541C4730DF007B37D4 /* UI24_KVO_NSNotificationCenterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UI24_KVO_NSNotificationCenterTests.m; sourceTree = "<group>"; };
+		49BE75561C4730DF007B37D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49BE755B1C4730DF007B37D4 /* UI24_KVO_NSNotificationCenterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UI24_KVO_NSNotificationCenterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49BE755F1C4730DF007B37D4 /* UI24_KVO_NSNotificationCenterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UI24_KVO_NSNotificationCenterUITests.m; sourceTree = "<group>"; };
+		49BE75611C4730DF007B37D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49BE756D1C474864007B37D4 /* NotiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotiViewController.h; sourceTree = "<group>"; };
+		49BE756E1C474864007B37D4 /* NotiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotiViewController.m; sourceTree = "<group>"; };
+		49BE75701C47806A007B37D4 /* VCnoe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCnoe.h; sourceTree = "<group>"; };
+		49BE75711C47806A007B37D4 /* VCnoe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCnoe.m; sourceTree = "<group>"; };
+		49BE75731C478084007B37D4 /* VCTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCTwo.h; sourceTree = "<group>"; };
+		49BE75741C478084007B37D4 /* VCTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCTwo.m; sourceTree = "<group>"; };
+		49BE75761C478E55007B37D4 /* j.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = j.png; sourceTree = "<group>"; };
+		49BE75781C4799CB007B37D4 /* CellForExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellForExtend.h; sourceTree = "<group>"; };
+		49BE75791C4799CB007B37D4 /* CellForExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellForExtend.m; sourceTree = "<group>"; };
+		49BE757A1C4799CB007B37D4 /* CellForExtend.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellForExtend.xib; sourceTree = "<group>"; };
+		49BE757E1C479AE5007B37D4 /* d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = d.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49BE75341C4730DF007B37D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49BE754D1C4730DF007B37D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49BE75581C4730DF007B37D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49BE752E1C4730DF007B37D4 = {
+			isa = PBXGroup;
+			children = (
+				49BE75391C4730DF007B37D4 /* UI24_KVO_NSNotificationCenter */,
+				49BE75531C4730DF007B37D4 /* UI24_KVO_NSNotificationCenterTests */,
+				49BE755E1C4730DF007B37D4 /* UI24_KVO_NSNotificationCenterUITests */,
+				49BE75381C4730DF007B37D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49BE75381C4730DF007B37D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49BE75371C4730DF007B37D4 /* UI24_KVO_NSNotificationCenter.app */,
+				49BE75501C4730DF007B37D4 /* UI24_KVO_NSNotificationCenterTests.xctest */,
+				49BE755B1C4730DF007B37D4 /* UI24_KVO_NSNotificationCenterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49BE75391C4730DF007B37D4 /* UI24_KVO_NSNotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				49BE753D1C4730DF007B37D4 /* AppDelegate.h */,
+				49BE75761C478E55007B37D4 /* j.png */,
+				49BE757E1C479AE5007B37D4 /* d.png */,
+				49BE753E1C4730DF007B37D4 /* AppDelegate.m */,
+				49BE75401C4730DF007B37D4 /* ViewController.h */,
+				49BE75411C4730DF007B37D4 /* ViewController.m */,
+				49BE75431C4730DF007B37D4 /* Main.storyboard */,
+				49BE756D1C474864007B37D4 /* NotiViewController.h */,
+				49BE756E1C474864007B37D4 /* NotiViewController.m */,
+				49BE75701C47806A007B37D4 /* VCnoe.h */,
+				49BE75711C47806A007B37D4 /* VCnoe.m */,
+				49BE75731C478084007B37D4 /* VCTwo.h */,
+				49BE75741C478084007B37D4 /* VCTwo.m */,
+				49BE757D1C4799D2007B37D4 /* DeletView */,
+				49BE75461C4730DF007B37D4 /* Assets.xcassets */,
+				49BE75481C4730DF007B37D4 /* LaunchScreen.storyboard */,
+				49BE754B1C4730DF007B37D4 /* Info.plist */,
+				49BE753A1C4730DF007B37D4 /* Supporting Files */,
+			);
+			path = UI24_KVO_NSNotificationCenter;
+			sourceTree = "<group>";
+		};
+		49BE753A1C4730DF007B37D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49BE753B1C4730DF007B37D4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49BE75531C4730DF007B37D4 /* UI24_KVO_NSNotificationCenterTests */ = {
+			isa = PBXGroup;
+			children = (
+				49BE75541C4730DF007B37D4 /* UI24_KVO_NSNotificationCenterTests.m */,
+				49BE75561C4730DF007B37D4 /* Info.plist */,
+			);
+			path = UI24_KVO_NSNotificationCenterTests;
+			sourceTree = "<group>";
+		};
+		49BE755E1C4730DF007B37D4 /* UI24_KVO_NSNotificationCenterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49BE755F1C4730DF007B37D4 /* UI24_KVO_NSNotificationCenterUITests.m */,
+				49BE75611C4730DF007B37D4 /* Info.plist */,
+			);
+			path = UI24_KVO_NSNotificationCenterUITests;
+			sourceTree = "<group>";
+		};
+		49BE757D1C4799D2007B37D4 /* DeletView */ = {
+			isa = PBXGroup;
+			children = (
+				49BE75781C4799CB007B37D4 /* CellForExtend.h */,
+				49BE75791C4799CB007B37D4 /* CellForExtend.m */,
+				49BE757A1C4799CB007B37D4 /* CellForExtend.xib */,
+			);
+			name = DeletView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49BE75361C4730DF007B37D4 /* UI24_KVO_NSNotificationCenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49BE75641C4730DF007B37D4 /* Build configuration list for PBXNativeTarget "UI24_KVO_NSNotificationCenter" */;
+			buildPhases = (
+				49BE75331C4730DF007B37D4 /* Sources */,
+				49BE75341C4730DF007B37D4 /* Frameworks */,
+				49BE75351C4730DF007B37D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UI24_KVO_NSNotificationCenter;
+			productName = UI24_KVO_NSNotificationCenter;
+			productReference = 49BE75371C4730DF007B37D4 /* UI24_KVO_NSNotificationCenter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49BE754F1C4730DF007B37D4 /* UI24_KVO_NSNotificationCenterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49BE75671C4730DF007B37D4 /* Build configuration list for PBXNativeTarget "UI24_KVO_NSNotificationCenterTests" */;
+			buildPhases = (
+				49BE754C1C4730DF007B37D4 /* Sources */,
+				49BE754D1C4730DF007B37D4 /* Frameworks */,
+				49BE754E1C4730DF007B37D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49BE75521C4730DF007B37D4 /* PBXTargetDependency */,
+			);
+			name = UI24_KVO_NSNotificationCenterTests;
+			productName = UI24_KVO_NSNotificationCenterTests;
+			productReference = 49BE75501C4730DF007B37D4 /* UI24_KVO_NSNotificationCenterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49BE755A1C4730DF007B37D4 /* UI24_KVO_NSNotificationCenterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49BE756A1C4730DF007B37D4 /* Build configuration list for PBXNativeTarget "UI24_KVO_NSNotificationCenterUITests" */;
+			buildPhases = (
+				49BE75571C4730DF007B37D4 /* Sources */,
+				49BE75581C4730DF007B37D4 /* Frameworks */,
+				49BE75591C4730DF007B37D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49BE755D1C4730DF007B37D4 /* PBXTargetDependency */,
+			);
+			name = UI24_KVO_NSNotificationCenterUITests;
+			productName = UI24_KVO_NSNotificationCenterUITests;
+			productReference = 49BE755B1C4730DF007B37D4 /* UI24_KVO_NSNotificationCenterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49BE752F1C4730DF007B37D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = dllo;
+				TargetAttributes = {
+					49BE75361C4730DF007B37D4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					49BE754F1C4730DF007B37D4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 49BE75361C4730DF007B37D4;
+					};
+					49BE755A1C4730DF007B37D4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 49BE75361C4730DF007B37D4;
+					};
+				};
+			};
+			buildConfigurationList = 49BE75321C4730DF007B37D4 /* Build configuration list for PBXProject "UI24_KVO_NSNotificationCenter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49BE752E1C4730DF007B37D4;
+			productRefGroup = 49BE75381C4730DF007B37D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49BE75361C4730DF007B37D4 /* UI24_KVO_NSNotificationCenter */,
+				49BE754F1C4730DF007B37D4 /* UI24_KVO_NSNotificationCenterTests */,
+				49BE755A1C4730DF007B37D4 /* UI24_KVO_NSNotificationCenterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49BE75351C4730DF007B37D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BE754A1C4730DF007B37D4 /* LaunchScreen.storyboard in Resources */,
+				49BE757F1C479AE5007B37D4 /* d.png in Resources */,
+				49BE75771C478E55007B37D4 /* j.png in Resources */,
+				49BE75471C4730DF007B37D4 /* Assets.xcassets in Resources */,
+				49BE75451C4730DF007B37D4 /* Main.storyboard in Resources */,
+				49BE757C1C4799CB007B37D4 /* CellForExtend.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49BE754E1C4730DF007B37D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49BE75591C4730DF007B37D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49BE75331C4730DF007B37D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BE756F1C474864007B37D4 /* NotiViewController.m in Sources */,
+				49BE75421C4730DF007B37D4 /* ViewController.m in Sources */,
+				49BE753F1C4730DF007B37D4 /* AppDelegate.m in Sources */,
+				49BE75751C478084007B37D4 /* VCTwo.m in Sources */,
+				49BE753C1C4730DF007B37D4 /* main.m in Sources */,
+				49BE757B1C4799CB007B37D4 /* CellForExtend.m in Sources */,
+				49BE75721C47806A007B37D4 /* VCnoe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49BE754C1C4730DF007B37D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BE75551C4730DF007B37D4 /* UI24_KVO_NSNotificationCenterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49BE75571C4730DF007B37D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BE75601C4730DF007B37D4 /* UI24_KVO_NSNotificationCenterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49BE75521C4730DF007B37D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49BE75361C4730DF007B37D4 /* UI24_KVO_NSNotificationCenter */;
+			targetProxy = 49BE75511C4730DF007B37D4 /* PBXContainerItemProxy */;
+		};
+		49BE755D1C4730DF007B37D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49BE75361C4730DF007B37D4 /* UI24_KVO_NSNotificationCenter */;
+			targetProxy = 49BE755C1C4730DF007B37D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49BE75431C4730DF007B37D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49BE75441C4730DF007B37D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49BE75481C4730DF007B37D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49BE75491C4730DF007B37D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49BE75621C4730DF007B37D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		49BE75631C4730DF007B37D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49BE75651C4730DF007B37D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UI24_KVO_NSNotificationCenter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou3g.UI24-KVO-NSNotificationCenter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		49BE75661C4730DF007B37D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UI24_KVO_NSNotificationCenter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou3g.UI24-KVO-NSNotificationCenter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		49BE75681C4730DF007B37D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UI24_KVO_NSNotificationCenterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou3g.UI24-KVO-NSNotificationCenterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI24_KVO_NSNotificationCenter.app/UI24_KVO_NSNotificationCenter";
+			};
+			name = Debug;
+		};
+		49BE75691C4730DF007B37D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UI24_KVO_NSNotificationCenterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou3g.UI24-KVO-NSNotificationCenterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI24_KVO_NSNotificationCenter.app/UI24_KVO_NSNotificationCenter";
+			};
+			name = Release;
+		};
+		49BE756B1C4730DF007B37D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UI24_KVO_NSNotificationCenterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou3g.UI24-KVO-NSNotificationCenterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UI24_KVO_NSNotificationCenter;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		49BE756C1C4730DF007B37D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UI24_KVO_NSNotificationCenterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou3g.UI24-KVO-NSNotificationCenterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UI24_KVO_NSNotificationCenter;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49BE75321C4730DF007B37D4 /* Build configuration list for PBXProject "UI24_KVO_NSNotificationCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49BE75621C4730DF007B37D4 /* Debug */,
+				49BE75631C4730DF007B37D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49BE75641C4730DF007B37D4 /* Build configuration list for PBXNativeTarget "UI24_KVO_NSNotificationCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49BE75651C4730DF007B37D4 /* Debug */,
+				49BE75661C4730DF007B37D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49BE75671C4730DF007B37D4 /* Build configuration list for PBXNativeTarget "UI24_KVO_NSNotificationCenterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49BE75681C4730DF007B37D4 /* Debug */,
+				49BE75691C4730DF007B37D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49BE756A1C4730DF007B37D4 /* Build configuration list for PBXNativeTarget "UI24_KVO_NSNotificationCenterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49BE756B1C4730DF007B37D4 /* Debug */,
+				49BE756C1C4730DF007B37D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49BE752F1C4730DF007B37D4 /* Project object */;
+}
